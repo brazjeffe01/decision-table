@@ -1,0 +1,14 @@
+{
+  "name": "decision-table",
+  "version": "1.0.0",
+  "description": "Projeto ilustrando a técnica de testes chamada decision table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jefferson Braz",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^1.1.1"
+  }
+}
