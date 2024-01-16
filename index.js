@@ -65,7 +65,7 @@ const secondFeature = () => {
         console.log('Primeira Condição: Eu estou logado na conta: [VERDADEIRO]')
         console.log('Segunda Condição: Eu tenho saldo na conta: [VERDADEIRO]')
         console.log('Terceira Condição: Eu tenho direito a Empréstimo Consignado: [FALSO]')
-        
+
         const firstCondition = () => {
             return true
         }
@@ -99,3 +99,10 @@ secondFeature()
 // 2 - Estou logado na conta
 
 // Resultado = 1 && 2 = true
+
+//Teste unitário
+function soma (a = 10, b = 5) {
+    return a + b
+}
+
+exports.soma = soma

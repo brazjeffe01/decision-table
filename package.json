@@ -4,7 +4,7 @@
   "description": "Projeto ilustrando a técnica de testes chamada decision table",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest --globals --reporter verbose"
   },
   "author": "Jefferson Braz",
   "license": "ISC",
