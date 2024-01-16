@@ -62,13 +62,36 @@ const secondFeature = () => {
     const firstScenario = () => {
 
         console.log('CONDIÇÕES:')
+        console.log('Primeira Condição: Eu estou logado na conta: [VERDADEIRO]')
+        console.log('Segunda Condição: Eu tenho saldo na conta: [VERDADEIRO]')
+        console.log('Terceira Condição: Eu tenho direito a Empréstimo Consignado: [FALSO]')
+        
         const firstCondition = () => {
+            return true
+        }
 
+        const secondCondition = () => {
+            return true
+        }
+
+        const thirdCondition = () => {
+            return false
+        }
+
+        if (firstCondition()) {
+            console.log('AÇÕES:')
+            console.log('Eu consigo verificar saldo: [VERDADEIRO]')
+        } else {
+            console.log('AÇÕES:')
+            console.log('Eu não consigo verificar saldo: [FALSO')
         }
     }
+
+    firstScenario()
 }
 
-firstFeature()
+//firstFeature()
+secondFeature()
 
 
 //Condição sacarDinheiro
