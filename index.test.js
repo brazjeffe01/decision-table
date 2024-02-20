@@ -1,4 +1,4 @@
-const { soma } = require('./index.js')
+const soma = require('./index.js')
 
 it('deve somar os valores normalmente', () => {
     const a = 25

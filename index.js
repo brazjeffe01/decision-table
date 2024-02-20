@@ -93,6 +93,12 @@ const secondFeature = () => {
 //firstFeature()
 secondFeature()
 
+function soma(a, b) {
+    return a + b
+}
+
+module.exports = soma
+
 
 //Condição sacarDinheiro
 // 1 - Tenho dinheiro na conta
@@ -101,8 +107,4 @@ secondFeature()
 // Resultado = 1 && 2 = true
 
 //Teste unitário
-function soma (a = 10, b = 5) {
-    return a + b
-}
 
-exports.soma = soma
